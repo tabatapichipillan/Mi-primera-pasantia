@@ -3,12 +3,16 @@
   "version": "1.0.0",
   "main": "m.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "nodemon index.js"
   },
   "author": "tabata",
   "license": "ISC",
   "keywords": [
     "pasantia"
   ],
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.2"
+  }
 }
